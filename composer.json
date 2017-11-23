@@ -1,0 +1,25 @@
+{
+  "name": "grape-fluid/link-collector",
+  "keywords": ["grape-fluid", "fluid-cms"],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/grape-fluid/link-collector",
+  "authors": [
+    {
+      "name": "GRAPE SC, a.s.",
+      "email": "developers@grapesc.cz",
+      "homepage": "https://developers.grapesc.cz"
+    }
+  ],
+  "require": {
+    "php": ">= 5.6",
+    "nette/di": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grapesc\\GrapeFluid\\LinkCollector\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
