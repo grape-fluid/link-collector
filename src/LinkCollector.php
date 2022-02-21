@@ -23,7 +23,7 @@ class LinkCollector
 	 * @param array $collections
 	 * @param Container $container
 	 */
-	public function __construct(array $collections = [], Container $container)
+	public function __construct(array $collections = [], Container $container = null)
 	{
 		$this->collections = $collections;
 		$this->container   = $container;
